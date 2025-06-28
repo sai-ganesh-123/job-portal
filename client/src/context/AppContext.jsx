@@ -15,6 +15,8 @@ import { jobsData } from "../assets/assets";
 
     const [jobs,setJobs] = useState([])
 
+    const [showRecruiterLogin,setShowRecruiterLogin] = useState(false)
+
 
     //function to fetch job data 
 
@@ -27,7 +29,7 @@ import { jobsData } from "../assets/assets";
     },[])
 
     const value={
-        setSearchFilter,searchFilter,isSearched,setIsSearched,jobs,setJobs
+        setSearchFilter,searchFilter,isSearched,setIsSearched,jobs,setJobs,showRecruiterLogin,setShowRecruiterLogin,
     }
 
     return (
