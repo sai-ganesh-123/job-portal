@@ -175,8 +175,6 @@ export const ChangeJobApplicationStatus = async (req, res) => {
   catch(error){
     res.json({success:false, message:error.message})
   }
-  
-  
 };
 
 // Change Job Visiblity
