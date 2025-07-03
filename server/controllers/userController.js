@@ -93,7 +93,8 @@ export const updateUserResume = async (req, res) => {
     const userData = await User.findById(userId);
 
     if (resumeFile) {
-      const resumeUpload = await v2.uploader.upload(resumeFile.path);
+    const resumeUpload = await v2.uploader.upload(resumeFile.path);
+
       userData.resume = resumeUpload.secure_url;
     }
     await userData.save();

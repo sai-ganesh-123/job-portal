@@ -45,7 +45,7 @@ const [applicants,setApplicants] = useState(false)
     } catch (error) {
       toast.error(error.message);
     }
-  };
+  }; 
 
 
   useEffect(()=>{
