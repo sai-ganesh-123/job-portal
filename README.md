@@ -1,8 +1,8 @@
-# Full-Stack Job Portal Application
+# 🚀 Full-Stack Job Portal Application
 
 This project is a comprehensive **full-stack job portal application** built to connect job seekers with recruiters. It provides a platform where users can **search for job openings and apply** to them, while recruiters can **publish new job posts** and manage applications.
 
-## Features
+## ✨ Features
 
 The application offers a wide range of functionalities for both job seekers and recruiters:
 
@@ -23,7 +23,7 @@ The application offers a wide range of functionalities for both job seekers and 
 *   **Error Monitoring**:
     *   **Sentry Integration**: **Sentry** is integrated for error debugging and application performance monitoring, providing real-time insights into production deployments, tracking errors, crashes, slow code, and database queries.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 The project is built with a modern and robust full-stack technology stack:
 
@@ -59,7 +59,7 @@ The project is built with a modern and robust full-stack technology stack:
 *   **Deployment**:
     *   **Vercel**: The entire application (both frontend and backend) is deployed on Vercel.
 
-## Installation Guide
+## 📦 Installation Guide
 
 Follow these steps to set up the project locally.
 
@@ -163,7 +163,7 @@ Follow these steps to set up the project locally.
     *   MongoDB integration for Sentry is also included in `config/instrument.js`.
     *   Errors and performance metrics from your backend will be reported to your Sentry dashboard.
 
-## Usage
+## ▶️ Usage
 
 ### Running Locally
 
@@ -195,7 +195,7 @@ Follow these steps to set up the project locally.
 
 
 
-## Environment Variables
+## 🔑 Environment Variables
 
 ### Client (`client/.env`)
 
@@ -218,7 +218,7 @@ Follow these steps to set up the project locally.
 | `CLERK_PUBLISHABLE_KEY`   | Your Clerk application's publishable key.            | `pk_test_aWQ...`                 |
 | `CLERK_SECRET_KEY`        | Your Clerk application's secret key.                 | `sk_test_aWQ...`                 |
 
-## API Documentation
+## 🔗 API Documentation
 
 Below are the key API endpoints available in the application:
 
@@ -318,7 +318,7 @@ These routes implicitly use Clerk authentication configured in the backend. The 
     *   **Request Body**: Clerk event payload (handled internally).
     *   **Response**: Success/error status.
 
-## Folder Structure
+## 📂 Folder Structure
 
 The project follows a clear and organized folder structure:
 
